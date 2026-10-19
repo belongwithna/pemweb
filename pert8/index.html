@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum 35 - Interaktifitas Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eksplorasi JavaScript & Manipulasi DOM</h1>
+        <p>Laboratorium Komputer D3 Manajemen Informatika</p>
+    </header>
+    <main>
+        <section class="card">
+            <h2 id="teks-sambutan">Selamat Datang di Praktikum ini!</h2>
+            <p id="teks-keterangan">Teks ini akan mengalami perubahan isi dan warna.</p>
+            <button id="btn-ubah">Ubah Teks</button>
+            <button id="btn-reset">Kembalikan Semula</button>
+        </section>
+        <section class="card">
+            <h2>Pratinjau Masukan Langsung (Live Preview)</h2>
+            <input type="text" id="input-nama" placeholder="Tuliskan nama mahasiswa...">
+            <p>Halo, <span id="output-nama" class="sorot">Praktikan</span>!</p>
+        </section>
+        <section class="card">
+            <h2>Pencacah Interaktif (Interactive Counter)</h2>
+            <div class="counter-display" id="angka-counter">0</div>
+            <button id="btn-kurang">- Kurang</button>
+            <button id="btn-tambah">+ Tambah</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
